@@ -33,6 +33,6 @@ Also, we orginally used that `hex inverter` for complemeting 2 bits of Bi. After
 
 So, we can use those slots and save an IC for NOT gate.
 
-So, new gate count = 12 - 2 = 10.
+So, new gate count = 13 - 2 = 11.
 
 Here is the [latest](/Offlines/ALU/Gates.md) IC table.
