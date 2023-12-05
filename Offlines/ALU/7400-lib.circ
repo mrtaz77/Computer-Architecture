@@ -57,7 +57,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <lib desc="#Base" name="6">
     <tool name="Text Tool">
       <a name="text" val=""/>
-      <a name="font" val="SansSerif plain 12"/>
+      <a name="font" val="SansSerif plain 18"/>
       <a name="halign" val="left"/>
       <a name="valign" val="base"/>
     </tool>
@@ -78,7 +78,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <tool lib="6" name="Edit Tool"/>
     <tool lib="6" name="Text Tool">
       <a name="text" val=""/>
-      <a name="font" val="SansSerif plain 12"/>
+      <a name="font" val="SansSerif plain 18"/>
       <a name="halign" val="left"/>
       <a name="valign" val="base"/>
     </tool>
@@ -130,7 +130,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="main"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <comp loc="(360,170)" name="7407">
       <a name="facing" val="south"/>
     </comp>
@@ -568,7 +568,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7400"/>
     <a name="clabel" val="7400"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(180,240)" to="(230,240)"/>
     <wire from="(200,250)" to="(220,250)"/>
     <wire from="(90,90)" to="(110,90)"/>
@@ -703,7 +703,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7402"/>
     <a name="clabel" val="7402"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(130,260)" to="(130,280)"/>
     <wire from="(90,150)" to="(110,150)"/>
     <wire from="(80,80)" to="(120,80)"/>
@@ -838,7 +838,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7404"/>
     <a name="clabel" val="7404"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(200,230)" to="(200,240)"/>
     <wire from="(110,110)" to="(110,120)"/>
     <wire from="(80,240)" to="(110,240)"/>
@@ -971,7 +971,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7407"/>
     <a name="clabel" val="7407"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(110,110)" to="(110,120)"/>
     <wire from="(200,230)" to="(200,240)"/>
     <wire from="(80,240)" to="(110,240)"/>
@@ -1098,7 +1098,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7408"/>
     <a name="clabel" val="7408"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(190,170)" to="(190,200)"/>
     <wire from="(180,240)" to="(230,240)"/>
     <wire from="(200,250)" to="(220,250)"/>
@@ -1233,7 +1233,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7410"/>
     <a name="clabel" val="7410"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(90,280)" to="(90,300)"/>
     <wire from="(180,240)" to="(230,240)"/>
     <wire from="(80,80)" to="(190,80)"/>
@@ -1361,7 +1361,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7411"/>
     <a name="clabel" val="7411"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(90,280)" to="(90,300)"/>
     <wire from="(180,240)" to="(230,240)"/>
     <wire from="(110,280)" to="(110,300)"/>
@@ -1489,7 +1489,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7420"/>
     <a name="clabel" val="7420"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(90,280)" to="(90,300)"/>
     <wire from="(160,120)" to="(230,120)"/>
     <wire from="(180,310)" to="(180,320)"/>
@@ -1604,7 +1604,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7421"/>
     <a name="clabel" val="7421"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(90,280)" to="(90,300)"/>
     <wire from="(160,120)" to="(230,120)"/>
     <wire from="(120,280)" to="(120,300)"/>
@@ -1719,7 +1719,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7425"/>
     <a name="clabel" val="7425"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(90,280)" to="(90,300)"/>
     <wire from="(160,120)" to="(230,120)"/>
     <wire from="(180,310)" to="(180,320)"/>
@@ -1834,7 +1834,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7427"/>
     <a name="clabel" val="7427"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(90,280)" to="(90,300)"/>
     <wire from="(180,240)" to="(230,240)"/>
     <wire from="(80,80)" to="(190,80)"/>
@@ -1962,7 +1962,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7430"/>
     <a name="clabel" val="7430"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(190,200)" to="(190,270)"/>
     <wire from="(150,160)" to="(150,270)"/>
     <wire from="(180,160)" to="(180,270)"/>
@@ -2068,7 +2068,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7432"/>
     <a name="clabel" val="7432"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(190,170)" to="(190,200)"/>
     <wire from="(180,240)" to="(230,240)"/>
     <wire from="(200,250)" to="(220,250)"/>
@@ -2203,7 +2203,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7448"/>
     <a name="clabel" val="7448"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(450,410)" to="(460,410)"/>
     <wire from="(460,100)" to="(470,100)"/>
     <wire from="(180,90)" to="(190,90)"/>
@@ -2670,7 +2670,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7451"/>
     <a name="clabel" val="7451"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(80,120)" to="(100,120)"/>
     <wire from="(80,200)" to="(90,200)"/>
     <wire from="(210,140)" to="(230,140)"/>
@@ -2820,7 +2820,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7474"/>
     <a name="clabel" val="7474"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(200,120)" to="(200,300)"/>
     <wire from="(100,210)" to="(100,280)"/>
     <wire from="(120,130)" to="(120,200)"/>
@@ -2951,7 +2951,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7476"/>
     <a name="clabel" val="7476"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(90,150)" to="(170,150)"/>
     <wire from="(230,140)" to="(240,140)"/>
     <wire from="(170,130)" to="(170,150)"/>
@@ -3086,7 +3086,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7483"/>
     <a name="clabel" val="7483"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(130,210)" to="(140,210)"/>
     <wire from="(190,320)" to="(280,320)"/>
     <wire from="(250,470)" to="(250,610)"/>
@@ -3538,7 +3538,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7486"/>
     <a name="clabel" val="7486"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(180,240)" to="(230,240)"/>
     <wire from="(200,250)" to="(220,250)"/>
     <wire from="(90,90)" to="(110,90)"/>
@@ -3673,7 +3673,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="7489"/>
     <a name="clabel" val="7489"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(110,260)" to="(190,260)"/>
     <wire from="(330,190)" to="(330,210)"/>
     <wire from="(270,230)" to="(270,250)"/>
@@ -3869,7 +3869,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74116"/>
     <a name="clabel" val="74116"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(240,210)" to="(260,210)"/>
     <wire from="(290,160)" to="(290,180)"/>
     <wire from="(170,230)" to="(170,240)"/>
@@ -4167,7 +4167,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74133"/>
     <a name="clabel" val="74133"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(180,160)" to="(260,160)"/>
     <wire from="(80,120)" to="(120,120)"/>
     <wire from="(210,280)" to="(210,310)"/>
@@ -4304,7 +4304,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74138"/>
     <a name="clabel" val="74138"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(230,250)" to="(240,250)"/>
     <wire from="(80,120)" to="(100,120)"/>
     <wire from="(80,200)" to="(90,200)"/>
@@ -4549,7 +4549,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74139"/>
     <a name="clabel" val="74139"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(120,330)" to="(140,330)"/>
     <wire from="(80,200)" to="(90,200)"/>
     <wire from="(160,250)" to="(170,250)"/>
@@ -4809,7 +4809,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74147"/>
     <a name="clabel" val="74147"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(290,200)" to="(350,200)"/>
     <wire from="(120,220)" to="(190,220)"/>
     <wire from="(170,160)" to="(190,160)"/>
@@ -4962,7 +4962,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74148"/>
     <a name="clabel" val="74148"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(270,320)" to="(350,320)"/>
     <wire from="(230,220)" to="(230,320)"/>
     <wire from="(330,280)" to="(330,290)"/>
@@ -5102,7 +5102,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74150"/>
     <a name="clabel" val="74150"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(190,510)" to="(350,510)"/>
     <wire from="(380,510)" to="(390,510)"/>
     <wire from="(320,270)" to="(320,480)"/>
@@ -5323,7 +5323,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74151"/>
     <a name="clabel" val="74151"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(80,120)" to="(260,120)"/>
     <wire from="(230,270)" to="(280,270)"/>
     <wire from="(250,160)" to="(250,240)"/>
@@ -5481,7 +5481,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74153"/>
     <a name="clabel" val="74153"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(190,270)" to="(190,290)"/>
     <wire from="(220,160)" to="(390,160)"/>
     <wire from="(180,290)" to="(190,290)"/>
@@ -5652,7 +5652,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74154"/>
     <a name="clabel" val="74154"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(280,380)" to="(330,380)"/>
     <wire from="(180,130)" to="(180,220)"/>
     <wire from="(380,510)" to="(390,510)"/>
@@ -6068,7 +6068,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74157"/>
     <a name="clabel" val="74157"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(80,200)" to="(90,200)"/>
     <wire from="(240,230)" to="(260,230)"/>
     <wire from="(90,240)" to="(90,250)"/>
@@ -6262,7 +6262,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74161"/>
     <a name="clabel" val="74161"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(280,210)" to="(290,210)"/>
     <wire from="(230,230)" to="(230,240)"/>
     <wire from="(240,210)" to="(260,210)"/>
@@ -6442,7 +6442,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74163"/>
     <a name="clabel" val="74163"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(130,210)" to="(140,210)"/>
     <wire from="(280,210)" to="(290,210)"/>
     <wire from="(240,210)" to="(260,210)"/>
@@ -6646,7 +6646,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74174"/>
     <a name="clabel" val="74174"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(200,120)" to="(200,240)"/>
     <wire from="(80,200)" to="(90,200)"/>
     <wire from="(150,140)" to="(160,140)"/>
@@ -6824,7 +6824,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74198"/>
     <a name="clabel" val="74198"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(100,610)" to="(280,610)"/>
     <wire from="(140,150)" to="(140,170)"/>
     <wire from="(380,600)" to="(390,600)"/>
@@ -7421,7 +7421,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74238"/>
     <a name="clabel" val="74238"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(220,260)" to="(260,260)"/>
     <wire from="(90,130)" to="(90,160)"/>
     <wire from="(80,160)" to="(90,160)"/>
@@ -7575,7 +7575,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74253"/>
     <a name="clabel" val="74253"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(80,200)" to="(90,200)"/>
     <wire from="(290,240)" to="(290,260)"/>
     <wire from="(290,360)" to="(300,360)"/>
@@ -7753,7 +7753,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74260"/>
     <a name="clabel" val="74260"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(140,80)" to="(140,250)"/>
     <wire from="(100,240)" to="(100,250)"/>
     <wire from="(200,260)" to="(200,270)"/>
@@ -7870,7 +7870,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74371"/>
     <a name="clabel" val="74371"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(270,390)" to="(270,450)"/>
     <wire from="(250,390)" to="(250,470)"/>
     <wire from="(390,400)" to="(400,400)"/>
@@ -8080,7 +8080,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="74682"/>
     <a name="clabel" val="74682"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(590,720)" to="(590,790)"/>
     <wire from="(300,300)" to="(300,820)"/>
     <wire from="(430,160)" to="(500,160)"/>
@@ -8592,7 +8592,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="circuit" val="744075"/>
     <a name="clabel" val="744075"/>
     <a name="clabelup" val="west"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelfont" val="SansSerif plain 18"/>
     <wire from="(90,280)" to="(90,300)"/>
     <wire from="(180,240)" to="(230,240)"/>
     <wire from="(110,280)" to="(110,300)"/>
