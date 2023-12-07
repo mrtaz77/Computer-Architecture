@@ -34,7 +34,7 @@ def count_wires(file_path):
     return unique_count // 2
 
 # the file must be present in current directory
-file_name = "dummy.circ"
+file_name = "final ALU.circ"
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(script_directory, file_name)
