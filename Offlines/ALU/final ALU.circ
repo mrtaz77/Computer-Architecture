@@ -538,21 +538,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(920,310)" to="(920,360)"/>
     <wire from="(960,350)" to="(960,400)"/>
     <wire from="(990,560)" to="(1070,560)"/>
-    <comp lib="0" loc="(610,750)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="C"/>
-      <a name="labelloc" val="south"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="7" loc="(1050,220)" name="74138">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="7" loc="(780,230)" name="7404">
-      <a name="facing" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
     <comp lib="0" loc="(870,60)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -560,12 +545,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
-    <comp lib="0" loc="(720,60)" name="Pin">
+    <comp lib="0" loc="(580,60)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="B2"/>
+      <a name="label" val="A1"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(540,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A2"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="7" loc="(510,230)" name="7486">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(670,750)" name="Pin">
       <a name="facing" val="north"/>
@@ -575,45 +570,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
-    <comp lib="0" loc="(500,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="A3"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
     <comp lib="7" loc="(290,230)" name="7486">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(220,350)" name="74157">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="7" loc="(1190,220)" name="7408">
-      <a name="facing" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="7" loc="(880,360)" name="74157">
-      <a name="facing" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="0" loc="(700,750)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
+    <comp lib="0" loc="(680,60)" name="Pin">
+      <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="Z"/>
-      <a name="labelloc" val="south"/>
+      <a name="label" val="B3"/>
+      <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="0" loc="(640,750)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="S"/>
-      <a name="labelloc" val="south"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="8" loc="(620,340)" name="IC - 7483">
-      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(470,750)" name="Pin">
       <a name="facing" val="north"/>
@@ -623,20 +588,27 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
-    <comp lib="0" loc="(900,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="cs1"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
+    <comp lib="7" loc="(420,500)" name="74157">
+      <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(1280,70)" name="Power"/>
-    <comp lib="0" loc="(370,750)" name="Pin">
+    <comp lib="0" loc="(640,750)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="Cout"/>
+      <a name="label" val="S"/>
       <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="7" loc="(110,230)" name="7408">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="7" loc="(1190,220)" name="7408">
+      <a name="facing" val="north"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(1280,70)" name="Power"/>
+    <comp lib="7" loc="(880,360)" name="74157">
+      <a name="facing" val="north"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
     <comp lib="0" loc="(440,750)" name="Pin">
@@ -647,20 +619,37 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
-    <comp lib="0" loc="(610,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="A0"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="7" loc="(680,600)" name="7486">
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="0" loc="(810,60)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="B0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="7" loc="(970,510)" name="7432">
+      <a name="facing" val="north"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(100,720)" name="Ground"/>
+    <comp lib="0" loc="(610,750)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(500,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A3"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(610,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A0"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
@@ -671,27 +660,61 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
+    <comp lib="0" loc="(400,750)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="O3"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="7" loc="(680,600)" name="7486">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(720,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B2"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="7" loc="(1050,220)" name="74138">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="7" loc="(780,230)" name="7404">
+      <a name="facing" val="north"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="7" loc="(220,350)" name="74157">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(900,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="cs1"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(370,750)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cout"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(700,750)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Z"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif plain 18"/>
+    </comp>
     <comp lib="0" loc="(930,60)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="cs0"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="0" loc="(680,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="B3"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="7" loc="(110,230)" name="7408">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(540,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="A2"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
@@ -703,31 +726,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
-    <comp lib="7" loc="(510,230)" name="7486">
+    <comp lib="8" loc="(620,340)" name="IC - 7483">
       <a name="facing" val="north"/>
-    </comp>
-    <comp lib="7" loc="(970,510)" name="7432">
-      <a name="facing" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="7" loc="(420,500)" name="74157">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(100,720)" name="Ground"/>
-    <comp lib="0" loc="(580,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="A1"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="0" loc="(400,750)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="O3"/>
-      <a name="labelloc" val="south"/>
-      <a name="labelfont" val="SansSerif plain 18"/>
     </comp>
   </circuit>
 </project>
