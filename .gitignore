@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+*.zip
+A1_Group6/
 .lh 
 .vscode
 Practice/
