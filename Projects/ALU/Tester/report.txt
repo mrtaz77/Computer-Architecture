@@ -1,0 +1,2 @@
+
+Congrats! All rows of the truth table are correct!

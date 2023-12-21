@@ -1,15 +1,25 @@
 # IC Ckt Optimization
 
+## 1st Optimization
+For P, our alternative second input to adder, we have
+$$P = \prod(3,5,6,7)$$
+
+
+which can easily be implemented using So and D3.
+
+$$P = S_\text{0} \land D_\text{3}$$
+
+
 ## 2nd Optimization
-The first optimization was done while implementing C.
+The first optimization was done while implementing P.
 Here is the _second_ optimization:
 
 Although we have 
-$$C_\text{in} = \overline{D_\text{4} \cdot D_\text{3} }$$
+$$C_\text{in} = \overline{D_\text{4} \land D_\text{3} }$$
 
 After much speculation and analysis done by me, I found that extra ICs would be needed to implement the above operation. So, I decided to use **De Morgan's law** and got
 
-$$C_\text{in} = \overline{D_\text{4}} + \overline{D_\text{3} }$$
+$$C_\text{in} = \overline{D_\text{4}} \lor \overline{D_\text{3} }$$
 
 This could be done by the vacant slots in the remaining ICs. Thus , optimizing the circuit.
 
@@ -34,5 +44,3 @@ Also, we orginally used that `hex inverter` for complemeting 2 bits of Bi. After
 So, we can use those slots and save an IC for NOT gate.
 
 So, new gate count = 13 - 2 + 1 = 12.
-
-Here is the [latest](/Offlines/ALU/Gates.md) IC table.
