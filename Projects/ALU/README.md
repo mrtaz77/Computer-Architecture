@@ -3,7 +3,7 @@
 
 ## Content
 - [Spec](#spec)
-- [Circuit Design](#circuit_design)
+- [Circuit Design](#circuit-design)
 - [Software Simulation using LOGISIM](#software-simulation-using-logisim)
 - [Report](./Report/)
 - [Usefool Tools](#useful-tools)
