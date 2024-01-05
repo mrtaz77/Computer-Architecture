@@ -2,4 +2,5 @@
 A collection of the projects done under the computer architecture course of undergrad.
 
 ## Projects
-- [ALU](/Projects/ALU/README.md)
+- [Arithmetic Logic Unit : ALU](/Projects/ALU/README.md)
+- [Floating Point Adder : FPA](/Projects/Floating%20Point%20Adder/)
