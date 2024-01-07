@@ -3,4 +3,4 @@ A collection of the projects done under the computer architecture course of unde
 
 ## Projects
 - [Arithmetic Logic Unit : ALU](/Projects/ALU/README.md)
-- [Floating Point Adder : FPA](/Projects/Floating%20Point%20Adder/)
+- [Floating Point Adder : FPA](/Projects/FPA/)
