@@ -86,7 +86,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </circuit>
   <circuit name="Control Unit">
     <a name="circuit" val="Control Unit"/>
-    <a name="clabel" val="Control"/>
+    <a name="clabel" val=""/>
     <a name="clabelup" val="west"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
@@ -150,17 +150,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(570,260)" to="(650,260)"/>
     <wire from="(670,230)" to="(670,280)"/>
     <wire from="(950,230)" to="(950,280)"/>
-    <comp lib="0" loc="(160,210)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Opcode"/>
-    </comp>
-    <comp lib="0" loc="(850,280)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="RegWrite"/>
-      <a name="labelloc" val="south"/>
-    </comp>
+    <comp lib="0" loc="(250,270)" name="Power"/>
     <comp lib="0" loc="(620,210)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="10"/>
@@ -182,17 +172,33 @@ a05 406 6 405 35 c05 806 9
       <a name="label" val="ALUSrc"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="0" loc="(250,270)" name="Power"/>
+    <comp lib="0" loc="(570,280)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Jump"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="0" loc="(160,210)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Opcode"/>
+    </comp>
+    <comp lib="0" loc="(850,280)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="RegWrite"/>
+      <a name="labelloc" val="south"/>
+    </comp>
     <comp lib="0" loc="(790,280)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="label" val="MemWrite"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="0" loc="(610,280)" name="Pin">
+    <comp lib="0" loc="(670,280)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
-      <a name="label" val="Bneq"/>
+      <a name="label" val="MemtoReg"/>
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="0" loc="(900,280)" name="Pin">
@@ -208,16 +214,10 @@ a05 406 6 405 35 c05 806 9
       <a name="label" val="ALUOp"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="0" loc="(670,280)" name="Pin">
+    <comp lib="0" loc="(610,280)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
-      <a name="label" val="MemtoReg"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="0" loc="(570,280)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Jump"/>
+      <a name="label" val="Bneq"/>
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="0" loc="(530,280)" name="Pin">
