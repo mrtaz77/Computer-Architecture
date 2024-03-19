@@ -1,0 +1,160 @@
+Line #1:
+addi $t1, $zero, 3
+Machine code: 7023
+======================
+Line #3:
+addi $t2, $zero, 5
+Machine code: 7035
+======================
+Line #5:
+add $t0, $t1, $t2
+Machine code: a231
+======================
+Line #7:
+add $t3, $t0, $t2
+Machine code: a134
+======================
+Line #9:
+addi $t4, $t3, 2
+Machine code: 7452
+======================
+Line #11:
+sw $t1, 3($t2)
+Machine code: f323
+======================
+Line #13:
+sll $t1, $t1, 2
+Machine code: 8222
+======================
+Line #15:
+subi $t3, $t3, 1
+Machine code: 6441
+======================
+Line #17:
+beq $t1, $t3, label1
+Machine code: 2421
+======================
+Line #19:
+j end
+Machine code: 3270
+======================
+Line #21:
+label1:
+Machine code: 0000
+======================
+Line #23:
+srl $t3, $t3, 1
+Machine code: d441
+======================
+Line #25:
+lw $t1, 2($t3)
+Machine code: c422
+======================
+Line #27:
+and $t0, $t1, $t3
+Machine code: 0241
+======================
+Line #29:
+or $t2, $t0, $t4
+Machine code: 9153
+======================
+Line #31:
+j label2
+Machine code: 3220
+======================
+Line #33:
+label3:
+Machine code: 0000
+======================
+Line #35:
+sw $t0, 0($sp)
+Machine code: f710
+======================
+Line #37:
+subi $sp, $sp, 1
+Machine code: 6771
+======================
+Line #39:
+sw $t2, 0($sp)
+Machine code: f730
+======================
+Line #41:
+subi $sp, $sp, 1
+Machine code: 6771
+======================
+Line #43:
+ori $t0, $t0, 5
+Machine code: b115
+======================
+Line #45:
+addi $sp, $sp, 1
+Machine code: 7771
+======================
+Line #47:
+lw $t0, 0($sp)
+Machine code: c710
+======================
+Line #49:
+andi $t2, $t2, 6
+Machine code: 1336
+======================
+Line #51:
+lw $t5, 2($t2)
+Machine code: c362
+======================
+Line #53:
+sw $t5, 0($sp)
+Machine code: f760
+======================
+Line #55:
+subi $sp, $sp, 1
+Machine code: 6771
+======================
+Line #57:
+addi $sp, $sp, 1
+Machine code: 7771
+======================
+Line #59:
+lw $t2, 0($sp)
+Machine code: c730
+======================
+Line #61:
+nor $t2, $t2, $t2
+Machine code: e333
+======================
+Line #63:
+addi $sp, $sp, 1
+Machine code: 7771
+======================
+Line #65:
+lw $t2, 0($sp)
+Machine code: c730
+======================
+Line #67:
+j end
+Machine code: 3270
+======================
+Line #69:
+label2:
+Machine code: 0000
+======================
+Line #71:
+bneq $t0, $t2, label4
+Machine code: 4311
+======================
+Line #73:
+subi $t0, $t0, 3
+Machine code: 6113
+======================
+Line #75:
+label4:
+Machine code: 0000
+======================
+Line #77:
+j label3
+Machine code: 3100
+======================
+Line #79:
+end:
+Machine code: 0000
+======================
