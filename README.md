@@ -10,7 +10,7 @@ A collection of the projects done under the computer architecture course of unde
 1. Logisim(2.7.1), download [EXE](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/) (Requires JRE 1.5.0) or [JAR](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/logisim-generic-2.7.1.jar/download) (Works for JRE >= 1.5.0).  _Open .circ files using this._
 2. Atmel Studio 7.0 . Download [link](https://www.microchip.com/en-us/tools-resources/archives/avr-sam-mcus)
 3. Proteus Version 8.15. Download [link](https://engineeringsoftware.net/electronics/proteus-8-15-full-crack/). _Open .pdsprj files using this._
-4. Extreme burner. Download [link](https://extreme-burner-avr.software.informer.com/1.4/). _Burning hex files into atmega32 for hardware simulation_
+4. Extreme burner. Download [link](https://extreme-burner-avr.software.informer.com/1.4/). _For burning hex files into atmega32 for hardware simulation_
 
 ### Issue with 7400-lib.circ Logisim Library 
 The originally downloaded [7400-lib.circ](/Projects/ALU/Circuits/7400-lib.circ) had a bug related to the IC-7483. The $C_{out}$ pin was an input pin instead of the desired output pin.This issue was solved using this [.circ](./Circuits/IC%207483.circ) file. Also some changes were made to the 7400-lib.circ file for the design.
@@ -131,5 +131,6 @@ python asm_compiler.py <input>.asm
 		- For proteus simulation, open the [circuit](/Projects/MIPS/Codes%20&%20Simulation/MIPS%20circuit.pdsprj) using proteus. Go to the atmega32 with the name **Instruction Memory** and load the hex file formed into it.
 	- **Clock is negative edge triggered**. Execute next instruction via clock. Also, supports a reset switch for reseting program counter.
 5. **Logisim simulation**
-	- Open the [circuit](/Projects/MIPS/Circuits/MIPS.circ) in logisim and follow the video to load the instruction.hex into intruction memory.
+	- Open the [circuit](/Projects/MIPS/Circuits/MIPS.circ) in logisim and follow the video to load the instruction.hex into intruction memory.\
+	https://github.com/mrtaz77/Computer-Architecture/assets/113765142/7c402a1f-811e-405a-8117-ec8926907b31
 	
