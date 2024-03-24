@@ -131,6 +131,8 @@ python asm_compiler.py <input>.asm
 		- For proteus simulation, open the [circuit](/Projects/MIPS/Codes%20&%20Simulation/MIPS%20circuit.pdsprj) using proteus. Go to the atmega32 with the name **Instruction Memory** and load the hex file formed into it.
 	- **Clock is negative edge triggered**. Execute next instruction via clock. Also, supports a reset switch for reseting program counter.
 5. **Logisim simulation**
-	- Open the [circuit](/Projects/MIPS/Circuits/MIPS.circ) in logisim and follow the video to load the instruction.hex into intruction memory.\
-	https://github.com/mrtaz77/Computer-Architecture/assets/113765142/7c402a1f-811e-405a-8117-ec8926907b31
-	
+	- Open the [circuit](/Projects/MIPS/Circuits/MIPS.circ) in logisim and follow the video to load the instruction.hex into intruction memory.
+	<p align="left">
+		<video src="https://github.com/mrtaz77/Computer-Architecture/assets/113765142/7c402a1f-811e-405a-8117-ec8926907b31" autoplay loop muted>
+		</video>
+	</p>
