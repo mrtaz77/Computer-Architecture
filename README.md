@@ -13,7 +13,7 @@ A collection of the projects done under the computer architecture course of unde
 4. Extreme burner. Download [link](https://extreme-burner-avr.software.informer.com/1.4/). _For burning hex files into atmega32 for hardware simulation_
 
 ### Issue with 7400-lib.circ Logisim Library 
-The originally downloaded [7400-lib.circ](/Projects/ALU/Circuits/7400-lib.circ) had a bug related to the IC-7483. The $C_{out}$ pin was an input pin instead of the desired output pin.This issue was solved using this [.circ](./Circuits/IC%207483.circ) file. Also some changes were made to the 7400-lib.circ file for the design.
+The originally downloaded [7400-lib.circ](/Projects/ALU/Circuits/7400-lib.circ) had a bug related to the IC-7483. The $C_{out}$ pin was an input pin instead of the desired output pin.This issue was solved using this [.circ](./Projects/ALU/Circuits/IC%207483.circ) file. Also some changes were made to the 7400-lib.circ file for the design.
 
 ## Projects
 - [Arithmetic Logic Unit : ALU](#alu)
